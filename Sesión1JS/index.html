@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión1-JS</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Sesión1-JS</h1>
+    <p>Act1<br>Boton al que haces click y salte un alert</p>
+    <button onclick="clickme()">Click Me</button>
+    <br>
+    <p>Act2<br>Pasar el mouse por un texto, div>span>texto, usando mouseover y salte un alert</p>
+    <button  onmouseover="dontTouchMe()">Don't touch me</button>
+    <br>
+    <p>Act3 <br>Haz un input al que le pases un texto y se muestre en un alert</p>
+    <input id="contenido">
+    <button onclick="muestraContenido()">Click para mostrar</button>
+    <br>
+    <p>Act4<br>Un input al que le pasas un numero y que por consola te muestre la tabla de multiplicación
+    del numero del input</p>
+    <!--En el input se puede especificar que solo se admitan valores numericos con type="number,
+        no lo hago por en la funcion ya hago una comprobacion para que solo se acepten valores
+        numericos.Abajo se encuentra el input que es mas correcto "-->
+        <!--<input type="number id="multiplica>-->
+    <input  id="multiplica">
+    <button onclick="tablaMultiplicar()">Tabla multiplicación</button>
+</body>
+</html>
