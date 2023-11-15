@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión16-JS</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Sesión16-JS</h1>
+    <p>Act1<br>Obternir la data actual i mostrar <br>
+        1-Avui es dd del mm del aaaa <br>
+        2-Han passat n setmanas de l'any <br>
+        3-El % de dias transcorreguts del any en nn,nn% <br>
+        4-Queden un nn,nn% de dies a l'any <br>
+        5-Ara són les hh:mm:ss <br>
+        6-El % del dia que ha passat és en nn,nn% <br>
+        7-Queda un % de nn,nn% del dia <br>
+    </p>
+    <button onclick="fecha()">Información</button>
+    <br>
+    <p>Act2 <br>Els codis de barres a Europa poden tenir 8 o 13 digits(EAN8, EAN13) la xifra més a la detra està calculada
+        segons la fòrmula on els digits imparells es multipliquen*3 i els parells *1;
+        El digit calculat és la diferencia entre el num calculat i el proper  multiple de 10.
+        function addLetfZeroPadding(code,num);
+        function checkDigitControl(codi);
+    </p>
+    <p>65839522 correcto<br>
+        65839521 incorrecto<br>
+        5029365779425 correcto <br>
+        5129365779425 incorrecto
+    </p>
+    <button onclick="validarCodigo()">Es valido?</button>
+</body>
+</html>
